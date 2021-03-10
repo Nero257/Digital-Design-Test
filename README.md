@@ -5,3 +5,4 @@
 * C# program "Frequency of words" in the .txt file.  
   
 ##### This repository for my solutions of this tasks.
+### P.S. But this repo contains First task too.
