@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using WordsFrequencyMethod;
+using System.Diagnostics;
 
 
 namespace WordsFrequency
@@ -26,7 +27,19 @@ namespace WordsFrequency
             if (text != "") {
                 Type t = typeof(FreqDictionary);
                 MethodInfo mi = t.GetTypeInfo().GetDeclaredMethod("CreateFreqDictionary");
+
+                //Добавляем Stopwatch класс
+                Stopwatch swatch = new Stopwatch();
+
+                swatch.Start();
                 Dictionary<string, int> dict = (Dictionary<string, int>)mi.Invoke(t, new object[] {text});
+                swatch.Stop();
+                Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время приватного метода");
+
+                swatch.Restart();
+                dict = FreqDictionary.CreateFreqDictParallel(text);
+                swatch.Stop();
+                Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время параллельного публичного метода");
 
                 //Запрашиваем путь для будущего файла
                 Console.WriteLine("Введите путь к папке файла:");
