@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SomeProgramming\\Learning\\Digital Design Test\\WordsFrequency\\WordsFrequency\\WordsFrequency.csproj",
+      "projectUniqueName": "D:\\SomeProgramming\\Learning\\Digital Design\\WordsFrequency\\WordsFrequency\\WordsFrequency\\WordsFrequency.csproj",
       "projectName": "WordsFrequency",
-      "projectPath": "D:\\SomeProgramming\\Learning\\Digital Design Test\\WordsFrequency\\WordsFrequency\\WordsFrequency.csproj",
+      "projectPath": "D:\\SomeProgramming\\Learning\\Digital Design\\WordsFrequency\\WordsFrequency\\WordsFrequency\\WordsFrequency.csproj",
       "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-      "outputPath": "D:\\SomeProgramming\\Learning\\Digital Design Test\\WordsFrequency\\WordsFrequency\\obj\\",
+      "outputPath": "D:\\SomeProgramming\\Learning\\Digital Design\\WordsFrequency\\WordsFrequency\\WordsFrequency\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,8 +56,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\SomeProgramming\\Learning\\Digital Design Test\\WordsFrequency\\WordsFrequencyMethod\\WordsFrequencyMethod.csproj": {
-              "projectPath": "D:\\SomeProgramming\\Learning\\Digital Design Test\\WordsFrequency\\WordsFrequencyMethod\\WordsFrequencyMethod.csproj"
+            "D:\\SomeProgramming\\Learning\\Digital Design\\WordsFrequency\\WordsFrequency\\WordsFrequencyMethod\\WordsFrequencyMethod.csproj": {
+              "projectPath": "D:\\SomeProgramming\\Learning\\Digital Design\\WordsFrequency\\WordsFrequency\\WordsFrequencyMethod\\WordsFrequencyMethod.csproj"
             }
           }
         }
