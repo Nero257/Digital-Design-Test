@@ -1,0 +1,6 @@
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.csproj.CoreCompileInputs.cache
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\bin\Debug\WordsFrequencyMethod.dll
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\bin\Debug\WordsFrequencyMethod.pdb
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.dll
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.pdb
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.exe
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.deps.json
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.runtimeconfig.json
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.runtimeconfig.dev.json
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.dll
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequency.pdb
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.csprojAssemblyReference.cache
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.AssemblyInfoInputs.cache
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.AssemblyInfo.cs
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.csproj.CoreCompileInputs.cache
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.dll
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.pdb
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.genruntimeconfig.cache
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequencyMethod.dll
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\bin\Debug\netcoreapp3.1\WordsFrequencyMethod.pdb
+D:\SomeProgramming\Learning\Digital Design Test\WordsFrequency\WordsFrequency\obj\Debug\netcoreapp3.1\WordsFrequency.csproj.CopyComplete
