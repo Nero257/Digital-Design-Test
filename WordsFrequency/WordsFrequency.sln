@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordsFrequency", "WordsFreq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFrequencyMethod", "WordsFrequencyMethod\WordsFrequencyMethod.csproj", "{B3629148-9A53-4715-9742-696A0524889D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFrequencyService", "WordsFrequencyService\WordsFrequencyService.csproj", "{8A7492E5-2A78-4A63-8015-6D3E415F3D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B3629148-9A53-4715-9742-696A0524889D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3629148-9A53-4715-9742-696A0524889D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3629148-9A53-4715-9742-696A0524889D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7492E5-2A78-4A63-8015-6D3E415F3D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7492E5-2A78-4A63-8015-6D3E415F3D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7492E5-2A78-4A63-8015-6D3E415F3D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7492E5-2A78-4A63-8015-6D3E415F3D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
