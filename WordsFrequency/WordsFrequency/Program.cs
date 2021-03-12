@@ -32,7 +32,7 @@ namespace WordsFrequency
                 Stopwatch swatch = new Stopwatch();
 
                 swatch.Start();
-                Dictionary<string, int> dict = (Dictionary<string, int>)mi.Invoke(t, new object[] {text});
+                Dictionary<string, int> dict = (Dictionary<string, int>)mi.Invoke(null , new object[] {text});
                 swatch.Stop();
                 Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время приватного метода");
 
