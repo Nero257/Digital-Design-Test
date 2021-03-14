@@ -20,7 +20,6 @@ namespace WordsFrequency
         static void Main(string[] args)
         {
 
-
             Console.WriteLine("Введите путь к файлу и нажмите Enter:");
 
             //Считываем путь в переменную path через консоль 

@@ -31,6 +31,7 @@ namespace FreqService
             return composite;
         }
 
+
         public Dictionary<string, int> GetFrequencyDict(string text)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
