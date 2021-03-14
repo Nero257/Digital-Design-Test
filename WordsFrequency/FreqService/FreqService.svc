@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="FreqService.FreqService" CodeBehind="FreqService.svc.cs" %>
