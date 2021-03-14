@@ -43,11 +43,11 @@ namespace WordsFrequency
                 swatch.Stop();
                 Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время приватного метода");
 
-                //Parallel method dictionary
+                //Parallel method service dictionary
                 swatch.Restart();
                 Dictionary<string, int> dict = DictWithService(text);
                 swatch.Stop();
-                Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время параллельного публичного метода");
+                Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время параллельного публичного метода из сервиса");
 
                 //Запрашиваем путь для будущего файла
                 Console.WriteLine("Введите путь к папке файла:");
