@@ -7,10 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFrequencyMethod", "Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFrequencyNew", "WordsFrequencyNew\WordsFrequencyNew.csproj", "{E17F98C8-4B62-424F-A705-94316F6D77E3}"
 	ProjectSection(ProjectDependencies) = postProject
-		{D8C4D515-CBD1-4F64-91CF-502D1EA93729} = {D8C4D515-CBD1-4F64-91CF-502D1EA93729}
+		{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A} = {CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreqService", "FreqService\FreqService.csproj", "{D8C4D515-CBD1-4F64-91CF-502D1EA93729}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreqService", "FreqService\FreqService.csproj", "{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +26,10 @@ Global
 		{E17F98C8-4B62-424F-A705-94316F6D77E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17F98C8-4B62-424F-A705-94316F6D77E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17F98C8-4B62-424F-A705-94316F6D77E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8C4D515-CBD1-4F64-91CF-502D1EA93729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8C4D515-CBD1-4F64-91CF-502D1EA93729}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8C4D515-CBD1-4F64-91CF-502D1EA93729}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8C4D515-CBD1-4F64-91CF-502D1EA93729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF9CED9-4E0D-4C7A-897B-1A32BA348C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace WordsFrequency
         public static Dictionary<string, int> DictWithService(string text)
         { 
             var client = new WordsFrequencyNew.FDService.FreqServiceClient();
-            var result = client.GetFrequencyDict(text);
+            var result = client.GetFrequencyDictAsync(text).Result;
             return result;
         }
 

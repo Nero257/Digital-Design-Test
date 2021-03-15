@@ -20,11 +20,8 @@ namespace FreqService
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
-
         [OperationContract]
         Dictionary<string, int> GetFrequencyDict(string text);
-
-        
     }
 
 
@@ -49,8 +46,4 @@ namespace FreqService
             set { stringValue = value; }
         }
     }
-
-
-
-
-} 
+}
