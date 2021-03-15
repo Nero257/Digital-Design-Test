@@ -46,4 +46,6 @@ namespace FreqService
             set { stringValue = value; }
         }
     }
+
+    
 }

@@ -11,10 +11,11 @@ namespace WordsFrequency
     class Program
     {
         public static Dictionary<string, int> DictWithService(string text)
-        { 
+        {
             var client = new WordsFrequencyNew.FDService.FreqServiceClient();
-            var result = client.GetFrequencyDictAsync(text).Result;
+            Dictionary<string, int> result = client.GetFrequencyDictAsync(text).Result;
             return result;
+            
         }
 
         static void Main(string[] args)
@@ -31,6 +32,7 @@ namespace WordsFrequency
             //Проверка на пустой файл
             if (text != "")
             {
+                Dictionary<string, int> dict = new Dictionary<string, int>();
                 Type t = typeof(FreqDictionary);
                 MethodInfo mi = t.GetTypeInfo().GetDeclaredMethod("CreateFreqDictionary");
 
@@ -45,7 +47,7 @@ namespace WordsFrequency
 
                 //Parallel method service dictionary
                 swatch.Restart();
-                Dictionary<string, int> dict = DictWithService(text);
+                dict = DictWithService(text);
                 swatch.Stop();
                 Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время параллельного публичного метода из сервиса");
 
