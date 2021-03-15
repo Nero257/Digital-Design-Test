@@ -1,0 +1,10 @@
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\obj\Debug\WordsFrequencyNew.csprojAssemblyReference.cache
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\obj\Debug\WordsFrequencyNew.csproj.CoreCompileInputs.cache
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\bin\Debug\WordsFrequencyNew.exe.config
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\bin\Debug\WordsFrequencyNew.exe
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\bin\Debug\WordsFrequencyNew.pdb
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\bin\Debug\WordsFrequencyMethod.dll
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\bin\Debug\WordsFrequencyMethod.pdb
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\obj\Debug\WordsFrequencyNew.csproj.CopyComplete
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\obj\Debug\WordsFrequencyNew.exe
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyNew\obj\Debug\WordsFrequencyNew.pdb

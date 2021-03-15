@@ -1,0 +1,7 @@
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\bin\FreqService.dll.config
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\bin\FreqService.dll
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\bin\FreqService.pdb
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\obj\Debug\FreqService.csproj.CoreCompileInputs.cache
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\obj\Debug\FreqService.dll
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\obj\Debug\FreqService.pdb
+D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\FreqService\obj\Debug\FreqService.csprojAssemblyReference.cache

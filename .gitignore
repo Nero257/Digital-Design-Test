@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/WordsFrequency.txt
 /t.txt
+/WordsFrequency.txt

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="90a6ed48-c45d-44f1-9e47-683e8f11b6a7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58193/FreqService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FreqService.xsd" MetadataType="Schema" ID="3ec482a7-fc9c-49eb-84a3-00a55472435c" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FreqService1.xsd" MetadataType="Schema" ID="c2eb7ac5-eff4-451c-bd53-88a229b6ae41" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FreqService2.xsd" MetadataType="Schema" ID="afcafb0f-f993-411a-b999-9bcaa7804a03" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FreqService3.xsd" MetadataType="Schema" ID="ec18af14-199c-42ca-8553-29f6b63219b9" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FreqService.disco" MetadataType="Disco" ID="4367c11b-d557-45a1-8a57-57e62246dd20" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?disco" />
+    <MetadataFile FileName="FreqService.wsdl" MetadataType="Wsdl" ID="d2f19698-3d4d-4a87-bf93-8ee6aac6e9d3" SourceId="1" SourceUrl="http://localhost:58193/FreqService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

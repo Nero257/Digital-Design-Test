@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 
 namespace WordsFrequencyMethod
 {
@@ -31,7 +31,7 @@ namespace WordsFrequencyMethod
 
         }
 
-        public static Dictionary<string, int> CreateFreqDictParallel(string text)
+ /*       public static Dictionary<string, int> CreateFreqDictParallel(string text)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
 
@@ -53,7 +53,7 @@ namespace WordsFrequencyMethod
 
             return dict;
 
-        }
+        }*/
 
 
     }
