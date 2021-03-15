@@ -9,4 +9,3 @@ D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFr
 D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.csproj.CoreCompileInputs.cache
 D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.dll
 D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.pdb
-D:\SomeProgramming\Learning\Digital Design\WordsFrequency\WordsFrequency\WordsFrequencyMethod\obj\Debug\WordsFrequencyMethod.csprojAssemblyReference.cache

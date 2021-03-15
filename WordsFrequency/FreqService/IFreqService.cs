@@ -21,7 +21,7 @@ namespace FreqService
 
         // TODO: Add your service operations here
         [OperationContract]
-        Dictionary<string, int> GetFrequencyDict(string text);
+        List<KeyValuePair<string, int>> GetFrequencyDict(string text);
     }
 
 

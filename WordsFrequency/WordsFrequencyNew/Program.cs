@@ -11,10 +11,22 @@ namespace WordsFrequency
     class Program
     {
         public static Dictionary<string, int> DictWithService(string text)
-        {
-            var client = new WordsFrequencyNew.FDService.FreqServiceClient();
-            Dictionary<string, int> result = client.GetFrequencyDictAsync(text).Result;
-            return result;
+        {   
+
+            List<KeyValuePair<string, int>> list = new List<KeyValuePair<string, int>>();
+            using (var client = new WordsFrequencyNew.FDService.FreqServiceClient())
+            {
+                list = client.GetFrequencyDict(text).ToList<KeyValuePair<string, int>>();
+            }
+
+            //Not the best but simple List -> Dictionary
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            foreach (KeyValuePair<string, int> pair in list)
+            {
+                if (pair.Key != null & pair.Key != "") 
+                    dict.Add(pair.Key, pair.Value);
+            }
+            return dict;
             
         }
 
@@ -47,7 +59,7 @@ namespace WordsFrequency
 
                 //Parallel method service dictionary
                 swatch.Restart();
-                dict = DictWithService(text);
+                dict = DictWithService(text).ToDictionary(x=>x.Key, x=>x.Value);
                 swatch.Stop();
                 Console.WriteLine(swatch.ElapsedMilliseconds.ToString() + " - время параллельного публичного метода из сервиса");
 

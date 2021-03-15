@@ -32,7 +32,7 @@ namespace FreqService
         }
 
 
-        public Dictionary<string, int> GetFrequencyDict(string text)
+        public List<KeyValuePair<string, int>> GetFrequencyDict(string text)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
 
@@ -48,11 +48,16 @@ namespace FreqService
             //Используем потоковое выполнение статического класса parallel
             Parallel.ForEach(unique_words, word =>
             {
-                int count = words.Count(x => x.Equals(word));
-                dict.Add(word, count);
+                if (word != "" && word != null)
+                {
+                    int count = words.Count(x => x.Equals(word));
+                    dict.Add(word, count);
+                } 
             });
 
-            return dict;
+            List<KeyValuePair<string, int>> list = dict.ToList<KeyValuePair<string, int>>();
+            return list;
+            
         }
     }
 }

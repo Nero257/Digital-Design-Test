@@ -91,10 +91,10 @@ namespace WordsFrequencyNew.FDService {
         System.Threading.Tasks.Task<WordsFrequencyNew.FDService.CompositeType> GetDataUsingDataContractAsync(WordsFrequencyNew.FDService.CompositeType composite);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IFreqService/GetFrequencyDict", ReplyAction="http://tempuri.org/IFreqService/GetFrequencyDictResponse")]
-        System.Collections.Generic.Dictionary<string, int> GetFrequencyDict(string text);
+        System.Collections.Generic.KeyValuePair<string, int>[] GetFrequencyDict(string text);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IFreqService/GetFrequencyDict", ReplyAction="http://tempuri.org/IFreqService/GetFrequencyDictResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, int>> GetFrequencyDictAsync(string text);
+        System.Threading.Tasks.Task<System.Collections.Generic.KeyValuePair<string, int>[]> GetFrequencyDictAsync(string text);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -140,11 +140,11 @@ namespace WordsFrequencyNew.FDService {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
         
-        public System.Collections.Generic.Dictionary<string, int> GetFrequencyDict(string text) {
+        public System.Collections.Generic.KeyValuePair<string, int>[] GetFrequencyDict(string text) {
             return base.Channel.GetFrequencyDict(text);
         }
         
-        public System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, int>> GetFrequencyDictAsync(string text) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.KeyValuePair<string, int>[]> GetFrequencyDictAsync(string text) {
             return base.Channel.GetFrequencyDictAsync(text);
         }
     }
